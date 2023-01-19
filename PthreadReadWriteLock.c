@@ -251,26 +251,17 @@ double runRWLockProgram(struct list_node_s **header, int numOperations, long num
     return cpu_time_used;
 }
 
-int main()
+int main(int argc, char *argv[])
 {
     int numKeys = 1000;
     long numOperations = 10000;
-    int caseNum;
-    int n;
-    long numThreads;
+    int caseNum = (int) strtol(argv[1], (char **) NULL, 10);
+    int n = (int) strtol(argv[2], (char **) NULL, 10);
+    int numThreads = (int) strtol(argv[3], (char **) NULL, 10);
 
     float probMember;
     float probInsert;
     float probDelete;
-
-    printf("Enter case number : ");
-    scanf("%d", &caseNum);
-
-    printf("Enter test run count: ");
-    scanf("%d", &n);
-
-    printf("Enter number of threads: ");
-    scanf("%ld", &numThreads);
 
     if (caseNum == 1){
         probMember = 0.99;
@@ -304,6 +295,7 @@ int main()
     for (int p = 0; p<n; p++){
         sum = sum + resultsArray[p];
     }
+    printf("Pthread Read Write Lock Program case %d with %d threads\n",caseNum,numThreads);
     printf("Mean is %f\n",sum/n);
     double mean = sum/n;
 
