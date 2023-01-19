@@ -1,0 +1,81 @@
+Serial Program case 1
+Mean is 0.015305
+Standard Deviation is 0.001113
+Pthread Mutex Program case 1 with 1 threads
+Mean is 0.015896
+Standard Deviation is 0.001948
+Pthread Read Write Lock Program case 1 with 1 threads
+Mean is 0.015270
+Standard Deviation is 0.000949
+Pthread Mutex Program case 1 with 2 threads
+Mean is 0.036868
+Standard Deviation is 0.002012
+Pthread Read Write Lock Program case 1 with 2 threads
+Mean is 0.017442
+Standard Deviation is 0.000950
+Pthread Mutex Program case 1 with 4 threads
+Mean is 0.043816
+Standard Deviation is 0.003077
+Pthread Read Write Lock Program case 1 with 4 threads
+Mean is 0.018437
+Standard Deviation is 0.001163
+Pthread Mutex Program case 1 with 8 threads
+Mean is 0.045228
+Standard Deviation is 0.002263
+Pthread Read Write Lock Program case 1 with 8 threads
+Mean is 0.020042
+Standard Deviation is 0.001137
+Serial Program case 2
+Mean is 0.020640
+Standard Deviation is 0.001285
+Pthread Mutex Program case 2 with 1 threads
+Mean is 0.021672
+Standard Deviation is 0.001810
+Pthread Read Write Lock Program case 2 with 1 threads
+Mean is 0.022344
+Standard Deviation is 0.001676
+Pthread Mutex Program case 2 with 2 threads
+Mean is 0.046676
+Standard Deviation is 0.002118
+Pthread Read Write Lock Program case 2 with 2 threads
+Mean is 0.030776
+Standard Deviation is 0.001162
+Pthread Mutex Program case 2 with 4 threads
+Mean is 0.050677
+Standard Deviation is 0.002201
+Pthread Read Write Lock Program case 2 with 4 threads
+Mean is 0.034522
+Standard Deviation is 0.001158
+Pthread Mutex Program case 2 with 8 threads
+Mean is 0.053110
+Standard Deviation is 0.001797
+Pthread Read Write Lock Program case 2 with 8 threads
+Mean is 0.037590
+Standard Deviation is 0.001369
+Serial Program case 3
+Mean is 0.049642
+Standard Deviation is 0.004489
+Pthread Mutex Program case 3 with 1 threads
+Mean is 0.049409
+Standard Deviation is 0.003728
+Pthread Read Write Lock Program case 3 with 1 threads
+Mean is 0.048959
+Standard Deviation is 0.004103
+Pthread Mutex Program case 3 with 2 threads
+Mean is 0.080837
+Standard Deviation is 0.004370
+Pthread Read Write Lock Program case 3 with 2 threads
+Mean is 0.081362
+Standard Deviation is 0.004801
+Pthread Mutex Program case 3 with 4 threads
+Mean is 0.080997
+Standard Deviation is 0.004418
+Pthread Read Write Lock Program case 3 with 4 threads
+Mean is 0.087401
+Standard Deviation is 0.004553
+Pthread Mutex Program case 3 with 8 threads
+Mean is 0.086617
+Standard Deviation is 0.003754
+Pthread Read Write Lock Program case 3 with 8 threads
+Mean is 0.093549
+Standard Deviation is 0.005168
